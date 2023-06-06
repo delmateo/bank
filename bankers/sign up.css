@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+form {
+  width: 345px;
+  height: 692px;
+  background: url("../bankers/v2_56.png");
+  opacity: 1;
+  position: absolute;
+  padding-top: 50px;
+  padding-left: 75px;
+  left: 50%;
+  top: 50%;
+  overflow: hidden;
+  transform: translate(-50%,-50%)
+}
+.form-group{
+  border-bottom: 2px solid grey;
+  position:relative;
+  margin: 35px 0;
+}
+.form-group input{
+  background: none;
+  outline: none;
+  border: none;
+  width: 50%;
+  font-size: 20px;
+  position: relative;
+}
+.verify button{
+  height: 45px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: linear-gradient(to right top, #a1a1a1,#84b4d7,#00d1a2,#00e7a2,#a8eb12);
+  font-size: 16px;
+  color: white;
+  align-content: center;
+}
